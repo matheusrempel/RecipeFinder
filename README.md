@@ -1,15 +1,19 @@
 # RecipeFinder
 Python demo which uses deep learning to find recipes for pictures taken of food.
-
+----
+Dataset used was from food-101: https://www.kaggle.com/datasets/dansbecker/food-101
 -----
 Demo.ipynb is a jupyter notebook with an effective demo of the project. In order to run, download the images folder in the repo, comment out the line of choice an run. Keep in mind that in order to run this, CLIP, along with many other packages must be installed. In the top section of the demo notebook, all pip install code has been pre-coded for convience. 
+
+link to OpenAi's CLIP: https://github.com/openai/CLIP
+
 ----
 CLIP_food_classifications is a juypter notebook containing the entire project; from testing various models, to eventually picking CLIP. It also has functions for returning the top 1, 3, and 5 outputs given an input image. 
 ----
 Find_Recipes is the jupyter notebook used with BeautifulSoup4 in order to parse html code containing ingredients and recipes of the classified image. The recipes all come from: allrecipes.com . 
----
+----
 Predict Foods is a jupyter notebook containing the minimal code required to predict the food if obtaining a recipe is not desirable. 
----
+----
 The categories available include: 
 
 'Apple pie', 'Baby back ribs', 'Baklava', 'Beef carpaccio', 'Beef tartare', 
@@ -31,6 +35,6 @@ The categories available include:
         'Spaghetti carbonara', 'Spring rolls', 'Steak', 'Strawberry shortcake', 'Sushi', 'Tacos', 
         'Takoyaki', 'Tiramisu', 'Tuna tartare', 'Waffles'
         
----
+----
 
 Project co-written by Matheus Rempel & Christopher Le of Rice University 
